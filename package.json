@@ -1,5 +1,5 @@
 {
-  "name": "tmm",
+  "name": "test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,8 @@
     "@mediapipe/camera_utils": "^0.3.1640029074",
     "@mediapipe/drawing_utils": "^0.3.1620248257",
     "@mediapipe/face_mesh": "^0.4.1633559619",
-    "@mediapipe/selfie_segmentation": "^0.1.1632777926",
+    "@mediapipe/selfie_segmentation": "^0.1.1675465747",
+    "@mediapipe/tasks-vision": "^0.10.14",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

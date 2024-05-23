@@ -4,8 +4,9 @@ import img1 from "./assets/img1.jpg";
 import img2 from "./assets/img2.jpg";
 import img3 from "./assets/img3.jpg";
 
-import { Camera } from "@mediapipe/camera_utils";
-import { SelfieSegmentation } from "@mediapipe/selfie_segmentation";
+// import { Camera } from "@mediapipe/camera_utils";
+// import { SelfieSegmentation } from "@mediapipe/selfie_segmentation";
+
 import "./style.css";
 
 function App() {
@@ -74,7 +75,8 @@ function App() {
 
     const selfieSegmentation = new SelfieSegmentation({
       locateFile: (file) =>
-        `./node_modules/@mediapipe/selfie_segmentation/${file}`,
+        // `./node_modules/@mediapipe/selfie_segmentation/${file}`,
+        `https://cdn.jsdelivr.net/npm/@mediapipe/selfie_segmentation/${file}`,
     });
     selfieSegmentation.setOptions({
       modelSelection: 1,
